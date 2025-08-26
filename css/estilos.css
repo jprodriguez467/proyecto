@@ -1,0 +1,341 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fondo-1 {
+  background: radial-gradient(circle, rgb(230, 61, 28) 26%, rgb(73, 70, 252) 74%);
+}
+
+.fondo-2 {
+  background: linear-gradient(90deg, rgb(224, 81, 34) 10%, rgb(217, 128, 106) 35%, rgb(59, 188, 184) 48%, rgb(139, 111, 122) 65%, rgb(55, 64, 230) 84%);
+}
+
+.fondo-3 {
+  background: linear-gradient(90deg, rgb(224, 81, 34) 10%, rgb(217, 128, 106) 35%, rgb(59, 188, 184) 48%, rgb(139, 111, 122) 65%, rgb(55, 64, 230) 84%);
+}
+
+.fondo-a {
+  background: linear-gradient(90deg, rgb(224, 81, 34) 10%, rgb(217, 128, 106) 35%, rgb(59, 188, 184) 48%, rgb(139, 111, 122) 65%, rgb(55, 64, 230) 84%);
+}
+
+.fondo-b {
+  background: linear-gradient(90deg, rgb(224, 81, 34) 10%, rgb(217, 128, 106) 35%, rgb(59, 188, 184) 48%, rgb(139, 111, 122) 65%, rgb(55, 64, 230) 84%);
+}
+
+.fondo-c {
+  background: radial-gradient(circle, rgb(82, 63, 251) 8%, rgb(217, 2, 45) 95%);
+}
+
+.square {
+  background-color: rgb(248, 247, 246);
+  display: grid;
+  grid-template-columns: 50px 250px 50px 250px 50px 250px 50px;
+  grid-template-rows: 50px 250px 50px 250px 50px 250px 50px;
+  align-content: center;
+  justify-content: center;
+}
+
+.fra {
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #f5f5f5;
+  font-size: 1.3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.caja0 {
+  grid-column: 2/7;
+  grid-row: 2/3;
+  font-size: 25px;
+  color: rgb(20, 11, 1);
+}
+
+.caja1 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+  background-image: linear-gradient(0deg, rgba(0, 1, 0, 0.6), rgba(0, 1, 0, 0.6)), url("../assets/images/Reducción-estrés-ansiedad.png");
+}
+
+.caja2 {
+  display: grid;
+  grid-column: 4/5;
+  grid-row: 4/5;
+  background-image: linear-gradient(0deg, rgba(0, 1, 0, 0.6), rgba(0, 1, 0, 0.6)), url("../assets/images/flexibilidad-fuerza.png");
+}
+
+.caja3 {
+  display: grid;
+  grid-column: 6/7;
+  grid-row: 4/5;
+  background-image: linear-gradient(0deg, rgba(0, 1, 0, 0.6), rgba(0, 1, 0, 0.6)), url("../assets/images/equilibrioy-coordinacion.png");
+}
+
+.caja4 {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 6/7;
+  background-image: linear-gradient(0deg, rgba(0, 1, 0, 0.6), rgba(0, 1, 0, 0.6)), url("../assets/images/Claridad-mental.png");
+}
+
+.caja5 {
+  display: grid;
+  grid-column: 4/5;
+  grid-row: 6/7;
+  background-image: linear-gradient(0deg, rgba(0, 1, 0, 0.6), rgba(0, 1, 0, 0.6)), url("../assets/images/sistema-inmunológico.png");
+}
+
+.caja6 {
+  display: grid;
+  grid-column: 6/7;
+  grid-row: 6/7;
+  background-image: linear-gradient(0deg, rgba(0, 1, 0, 0.241), rgba(0, 1, 0, 0.6)), url("../assets/images/paz-interior.png");
+}
+
+.video-container {
+  margin-left: 550px;
+  margin-top: 100px;
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 10px rgba(242, 12, 12, 0.2);
+  animation: moveDiagonal 6s infinite;
+}
+@keyframes moveDiagonal {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(200px, -200px);
+  }
+  50% {
+    transform: translate(400px, 0);
+  }
+  75% {
+    transform: translate(200px, 200px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.sahumerio {
+  margin-left: 550px;
+  margin-top: 100px;
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 10px rgba(242, 12, 12, 0.2);
+  animation: moveDiagonal 6s infinite;
+}
+@keyframes moveDiagonal {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(200px, -200px);
+  }
+  50% {
+    transform: translate(400px, 0);
+  }
+  75% {
+    transform: translate(0, 200px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.container-fluid {
+  height: 300px;
+  background: linear-gradient(90deg, rgb(131, 58, 180) 15%, rgb(253, 29, 29) 72%, rgba(230, 164, 71, 0.89) 100%);
+  font-size: 30px;
+  font-family: "Quintessential", serif;
+  color: #e0e1e9;
+  margin-left: 6000px;
+  gap: 200px;
+}
+.container-fluid .logo {
+  width: 90px;
+  height: auto;
+}
+
+.portada {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.p-inicio {
+  background-image: url(../assets/images/portada.png);
+  background-size: cover;
+}
+
+.p-cursos {
+  background-image: url(../assets/images/terapias01.png);
+  background-size: cover;
+}
+
+.p-retiros {
+  height: 500px;
+  background-image: url(../assets/images/retiros.jpg);
+  background-size: cover;
+}
+
+.p-yoga {
+  background-image: url(../assets/images/portada-clases.png);
+  background-size: cover;
+  background-color: #ccc;
+  z-index: 9;
+}
+
+.p-kundalini {
+  background-image: url(../assets/images/kundalini.png);
+  background-size: cover;
+}
+
+.p-yoga-en-silla {
+  background-image: url(../assets/images/portada-yoga-en-silla.png);
+  background-size: cover;
+  z-index: 9;
+}
+
+.nombre {
+  color: #f6f0f0;
+  font-family: "Ephesis", cursive;
+  font-size: 120px;
+}
+
+.presentacion {
+  background-color: #8B0000;
+  display: flex;
+  margin-right: 100px;
+  margin-top: 100px;
+  justify-content: center;
+  margin-left: 50px;
+  font-size: clamp(24px, 4vw + 1rem, 48px);
+}
+
+.vivi {
+  margin-left: 50%;
+  margin-bottom: 25px;
+  font-size: 48px;
+  letter-spacing: 1em;
+  font-size: 3rem;
+  color: #f5f5f5;
+  animation: move 5s infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(200px);
+  }
+}
+.parrafo-yoga {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #f4a460;
+}
+
+.preguntas-frecuentes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: wrap;
+  gap: 30px;
+  padding: 80px 20px;
+  margin-top: 80px;
+  background: linear-gradient(90deg, rgb(224, 81, 34) 10%, rgb(217, 128, 106) 35%, rgb(59, 188, 184) 48%, rgb(139, 111, 122) 65%, rgb(55, 64, 230) 84%);
+  border-radius: 12px;
+}
+.preguntas-frecuentes img {
+  transform: rotate(-0.1turn);
+}
+
+.preguntas-frecuentes .titulo {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  margin: 0 0 20px;
+  text-align: center;
+  font-size: 3rem;
+  color: 800;
+  letter-spacing: 2px;
+  -webkit-text-fill-color: rgba(229, 238, 229, 0.7921568627);
+}
+
+.parra {
+  color: #e1ece1;
+}
+
+.flexbox-a {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+  background: linear-gradient(90deg, rgb(224, 81, 34) 10%, rgb(217, 128, 106) 35%, rgb(59, 188, 184) 48%, rgb(139, 111, 122) 65%, rgb(55, 64, 230) 84%);
+  border: 1px solid #e11d1d;
+  color: black;
+}
+
+.p-2 {
+  animation: moveVertical 5s infinite;
+}
+
+@keyframes moveVertical {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-200px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.pie {
+  gap: 10px;
+  margin-top: 500px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, rgb(219, 159, 29) 0%, rgb(227, 30, 69) 100%);
+}
+.pie .cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  font-weight: 500;
+  line-height: 1, 2;
+  color: #e0e0e0;
+}
+.pie .d-flex {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.pie .text-center {
+  font-size: 30px;
+  gap: 10px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

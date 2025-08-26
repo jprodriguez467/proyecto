@@ -5,7 +5,9 @@
 .curso-body{
   background-color: #db2323;
 }
-
+header{
+  background-color: #3fb83d;
+}
 .portada{
  
   height: 500px;
@@ -41,7 +43,7 @@
   background-size: cover; 
 }
 .p-yoga-en-silla{
-    
+     background-image: url(../assets/images/portada-yoga-en-silla.png);
   background-size: cover;  
 }
 
@@ -176,7 +178,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .yoga{
-  color: #ede2e2;
+  color: #999;
   margin-left: 30px;
   margin-top: 30px;
  font-family: cursive;
@@ -453,12 +455,21 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     ),    url("../assets/images/paz-interior.png"); 
 
 }
-
-    
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 148, 87);
+    color: rgb(245, 237, 86);
+    height: 100px;
+    width: 100%;
+    display: flex;
    
     /*justify-content: space-between;
     align-items: center;*/
-
+}
 .icono{
     font-size: 50px;
     padding-right: 10px;
@@ -823,7 +834,7 @@ color: #f0f0f0;
         text-align: center;
     }
 }
-
+/*
 @media (max-width:768px)
 {
 .container-fluid{
@@ -876,7 +887,7 @@ color: #f0f0f0;
 }
 .presentacion{
   width: 100%;
-  font-size: clamp(24px, 4vw + 1rem, 48px);*/
+ /* font-size: clamp(24px, 4vw + 1rem, 48px);*/
 
 
 .nombre{
