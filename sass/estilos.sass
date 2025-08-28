@@ -94,31 +94,14 @@
       rgba(0, 1, 0, 0.6)
     ),    url("../assets/images/paz-interior.png"); 
 .video-container
-    margin-left: 550px
+    display: flex
+    align-items: center
+    justify-content: center
     margin-top: 100px
-    width: 100%
-    max-width: 400px
-    height: 300px
     border-radius: 10px
     border: none
     box-shadow: 0 0 10px rgba(242, 12, 12, 0.2)
-    animation: moveDiagonal 6s infinite
 
-    @keyframes moveDiagonal
-        0%
-            transform: translate(0, 0)
-
-        25%
-            transform: translate($move-distance, -$move-distance)
-
-        50%
-            transform: translate($move-distance * 2, 0)
-
-        75%
-            transform: translate($move-distance, $move-distance)
-
-        100%
-            transform: translate(0, 0)
 .sahumerio
     margin-left: 550px
     margin-top: 100px
@@ -170,7 +153,9 @@
     background-size: cover
 
 .p-cursos
-    background-image: url(../assets/images/terapias01.png)
+    width: 100%
+    height: 500px
+    background-image: url(../assets/images/02-cursos.png)
     background-size: cover
 
 .p-retiros
@@ -208,15 +193,16 @@
     font-size: clamp(24px, 4vw + 1rem, 48px)
 
 .vivi
-
-    margin-left: 50%
+    margin-left: 500px
     margin-bottom: 25px
     font-size: $font-xxl
     letter-spacing: 1em
     font-size: $font-size-5xl
     color: #f5f5f5
     animation: move 5s infinite
-// 1. Movimiento horizontal simple
+.respiracion
+    color: #0c0101
+
 @keyframes move
     0%
         transform: translateX(0)
@@ -240,9 +226,21 @@
     background: linear-gradient(90deg,rgba(224, 81, 34, 1) 10%, rgba(217, 128, 106, 1) 35%, rgba(59, 188, 184, 1) 48%, rgba(139, 111, 122, 1) 65%, rgba(55, 64, 230, 1) 84%)
     border-radius: 12px
 
-    img
-        transform: rotate(-0.10turn)
-
+.titulo-noticia
+    font-size: 50px
+    font-family: $font-cursive-handwritten
+    margin-left: 300px
+.subtitulo
+    font-size: 25px
+    font-family: $font-monospace
+    margin-left: 300px
+.cuerpo-1
+    font-size: 25px
+    font-family: $font-cursive-modern
+    margin-left: 100px
+    margin-right: 100px
+.img-noticia
+    margin-left: 500px
 .preguntas-frecuentes .titulo
     font-family: $font-title-display
     font-weight: 400
@@ -263,17 +261,7 @@
     border: 1px solid #e11d1d
     color: black
 .p-2
-    animation: moveVertical 5s infinite
-@keyframes moveVertical
-    0%
-        transform: translateY(0)
-
-    50%
-        transform: translateY(-$move-distance)
-
-    100%
-        transform: translateY(0)
-
+    margin-left: 400px
 .pie
     gap: 10px
     margin-top: 500px
@@ -314,19 +302,70 @@
     .text-center
         font-size: 31px
         gap: 10px
+.container .ul .li
+    color: #0d0101
 
 .navbar-nav
     background-color: transparent
     color: #2325
+    .img-noticia
+        margin-left: 400px
+.conter-999
+    margin-top: 50px
 @media (max-width: 768x)
+.p-2
+    animation: none
+    margin-left: 10px
+.presentacion
+    background-color: $colorado-deep
+    display: flex
+    margin-right: 5px
+    margin-top: 5px
+    justify-content: center
+    margin-left: 5px
+    font-size: clamp(24px, 4vw + 1rem, 48px)
+    flex-direction: column
 
-    .navbar-collapse
-        background: rgba(255, 255, 255, 0.95)
-        backdrop-filter: blur(10px)
-        border-radius: 15px
-        padding: 20px
-        margin-top: 15px
-        box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37)
+.vivi
+    margin-left: 2px
+    margin-bottom: 25px
+    font-size: $font-xxl
+    letter-spacing: 1em
+    font-size: $font-size-5xl
+    color: #e50c0c
+
+// 1. Movimiento horizontal simple
+@keyframes move none
+    0%
+        transform: translateX(0)
+
+    100%
+        transform: translateX($move-distance)
+
+.navbar-collapse
+    width: 100%
+    background: none
+    backdrop-filter: blur(10px)
+    border-radius: 15px
+    padding: 20px
+    margin-top: 15px
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37)
+.img-noticia
+    width: 80%
+    height: auto
+    margin-left: 4px
+.titulo-noticia
+    margin-left: 4px
+    font-size: 30px
+.subtitulo
+    margin-left: 4px
+    margin-right: 4px
+    font-size: 20px
+.cuerpo-1
+    margin-left: 4px
+    font-size: 20px
+
+.parrafo-yoga
 
 .dl,ol,ul
 
