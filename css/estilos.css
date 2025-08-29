@@ -159,6 +159,13 @@
   background-image: url(../assets/images/portada.png);
   background-size: cover;
 }
+@media screen and (max-width: 768px) {
+  .p-inicio {
+    height: 250px;
+    background-color: #8B0000;
+    background-image: none;
+  }
+}
 
 .p-cursos {
   width: 100%;
@@ -166,11 +173,25 @@
   background-image: url(../assets/images/02-cursos.png);
   background-size: cover;
 }
+@media screen and (max-width: 768px) {
+  .p-cursos {
+    height: 250px;
+    background-color: #8B0000;
+    background-image: none;
+  }
+}
 
 .p-retiros {
   height: 500px;
   background-image: url(../assets/images/retiros.jpg);
   background-size: cover;
+}
+@media screen and (max-width: 768px) {
+  .p-retiros {
+    height: 250px;
+    background-color: #8B0000;
+    background-image: none;
+  }
 }
 
 .p-yoga {
@@ -179,16 +200,37 @@
   background-color: #ccc;
   z-index: 9;
 }
+@media screen and (max-width: 768px) {
+  .p-yoga {
+    height: 250px;
+    background-color: #8B0000;
+    background-image: none;
+  }
+}
 
 .p-kundalini {
   background-image: url(../assets/images/kundalini.png);
   background-size: cover;
+}
+@media screen and (max-width: 768px) {
+  .p-kundalini {
+    height: 250px;
+    background-color: #8B0000;
+    background-image: none;
+  }
 }
 
 .p-yoga-en-silla {
   background-image: url(../assets/images/portada-yoga-en-silla.png);
   background-size: cover;
   z-index: 9;
+}
+@media screen and (max-width: 768px) {
+  .p-yoga-en-silla {
+    height: 250px;
+    background-color: #8B0000;
+    background-image: none;
+  }
 }
 
 .nombre {
@@ -387,7 +429,7 @@
 }
 
 .presentacion {
-  background-color: #8B0000;
+  background-color: #722F37;
   display: flex;
   margin-right: 5px;
   margin-top: 5px;
@@ -445,10 +487,6 @@
   margin-right: 10px;
   width: 100%;
   height: auto;
-}
-
-.portada .p-cursos {
-  width: 100%;
 }
 
 .nombre {

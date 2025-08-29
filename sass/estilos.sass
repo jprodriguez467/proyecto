@@ -2,6 +2,7 @@
 @import 'media-queries'
 @import 'movimientos'
 @import 'transiciones'
+@import 'cursos'
 
 *
     margin: 0
@@ -152,17 +153,27 @@
 .p-inicio
     background-image: url(../assets/images/portada.png)
     background-size: cover
-
+    @include tablet
+        height: 250px
+        background-color: $colorado-deep
+        background-image: none
 .p-cursos
     width: 100%
     height: 500px
     background-image: url(../assets/images/02-cursos.png)
     background-size: cover
-
+    @include tablet
+        height: 250px
+        background-color: $colorado-deep
+        background-image: none
 .p-retiros
     height: 500px
     background-image: url(../assets/images/retiros.jpg)
     background-size: cover
+    @include tablet
+        height: 250px
+        background-color: $colorado-deep
+        background-image: none
 
 .p-yoga
 
@@ -170,15 +181,27 @@
     background-size: cover
     background-color: #ccc
     z-index: 9
+    @include tablet
+        height: 250px
+        background-color: $colorado-deep
+        background-image: none
 
 .p-kundalini
     background-image: url(../assets/images/kundalini.png)
     background-size: cover
+    @include tablet
+        height: 250px
+        background-color: $colorado-deep
+        background-image: none
 
 .p-yoga-en-silla
     background-image: url(../assets/images/portada-yoga-en-silla.png)
     background-size: cover
     z-index: 9
+    @include tablet
+        height: 250px
+        background-color: $colorado-deep
+        background-image: none
 .nombre
     color: #f6f0f0
     font-family: 'Ephesis', cursive
@@ -336,7 +359,7 @@
     animation: none
     margin-left: 10px
 .presentacion
-    background-color: $colorado-deep
+    background-color: $colorado-wine
     display: flex
     margin-right: 5px
     margin-top: 5px
@@ -386,8 +409,7 @@
     margin-right: 10px
     width: 100%
     height: auto
-.portada .p-cursos
-    width: 100%
+
 .nombre
     font-size: 50px
     margin-left: 35px
