@@ -210,11 +210,17 @@
 .vivi {
   margin-left: 500px;
   margin-bottom: 25px;
-  font-size: 48px;
+  font-size: 4rem;
   letter-spacing: 1em;
-  font-size: 3rem;
-  color: #f5f5f5;
-  animation: move 5s infinite;
+  animation: 2s;
+  font-size: 50px;
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .vivi {
+    margin-left: 50px;
+    color: #061901;
+  }
 }
 
 .respiracion {
@@ -233,6 +239,13 @@
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #f4a460;
+}
+@media screen and (max-width: 768px) {
+  .parrafo-yoga {
+    margin-left: 25px;
+    margin-right: 5px;
+    color: #061901;
+  }
 }
 
 .preguntas-frecuentes {
@@ -298,6 +311,12 @@
 
 .p-2 {
   margin-left: 400px;
+}
+@media screen and (max-width: 768px) {
+  .p-2 {
+    margin-right: 40px;
+    color: #061901;
+  }
 }
 
 .pie {
@@ -376,15 +395,6 @@
   margin-left: 5px;
   font-size: clamp(24px, 4vw + 1rem, 48px);
   flex-direction: column;
-}
-
-.vivi {
-  margin-left: 2px;
-  margin-bottom: 25px;
-  font-size: 48px;
-  letter-spacing: 1em;
-  font-size: 3rem;
-  color: #e50c0c;
 }
 
 @keyframes move none {
