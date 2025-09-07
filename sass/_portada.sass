@@ -1,5 +1,5 @@
+@use 'variables' as *
 .portada
-
     height: 500px
     display: flex
     justify-content: center
@@ -7,29 +7,49 @@
     width: 100%
     @media (max-width: 768px)
         height: 250px
-
 .nombre
-    color: #f5f1f1
     font-family: 'Ephesis', cursive
     font-size: 120px
+    color: #fff
+
     @media (max-width: 768px)
+        margin-left: 15px
+        color: #fff
         font-size: 50px
 
 //*p-inicio
 .p-inicio
     background-image: url(../assets/images/portada.png)
+    filter: brightness(0.8)
     background-size: cover
-    @media (max-width: 768px)
-        background-img: url(none)
+    background-position: center
+    height: 500px // Desktop
 
+// Media query separada
+@media (max-width: 768px)
+    .p-inicio
+        margin-top: 50pxpx
+        height: 250px
+        background-color: #06132173
+        background-image: none
 .p-cursos
     background-image: url(../assets/images/portada-cursos.png)
     background-size: cover
+    @media (max-width: 768px)
+        margin-top: 50pxpx
+        height: 250px
+        background-color: #06132173
+        background-image: none
 
 .p-retiros
     height: 500px
     background-image: url(../assets/images/retiros.jpg)
     background-size: cover
+    @media (max-width: 768px)
+        margin-top: 50pxpx
+        height: 250px
+        background-color: #06132173
+        background-image: none
 
 .p-yoga
 
@@ -37,11 +57,21 @@
     background-size: cover
     background-color: #ccc
     z-index: 999
+    @media (max-width: 768px)
+        margin-top: 50pxpx
+        height: 250px
+        background-color: #06132173
+        background-image: none
 
 .p-kundalini
     background-image: url(../assets/images/kundalini.png)
     background-size: cover
+    @media (max-width: 768px)
+        margin-top: 50pxpx
+        height: 250px
+        background-color: #06132173
+        background-image: none
 
 .p-yoga-en-silla
-
+    background-image: url(../assets/images/portada-yoga-en-silla.png)
     background-size: cover
