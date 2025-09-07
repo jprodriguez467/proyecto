@@ -199,6 +199,14 @@ body {
   }
 }
 
+.col-sm-8 {
+  color: #fff;
+}
+
+.col {
+  color: #fff;
+}
+
 .tex {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #f9f3f3;
@@ -918,7 +926,7 @@ body {
   .p-inicio {
     margin-top: 50pxpx;
     height: 250px;
-    background-color: rgba(6, 19, 33, 0.4509803922);
+    background: #411ee6;
     background-image: none;
   }
 }
@@ -930,7 +938,7 @@ body {
   .p-cursos {
     margin-top: 50pxpx;
     height: 250px;
-    background-color: rgba(6, 19, 33, 0.4509803922);
+    background-color: #7340ef;
     background-image: none;
   }
 }
@@ -944,7 +952,7 @@ body {
   .p-retiros {
     margin-top: 50pxpx;
     height: 250px;
-    background-color: rgba(6, 19, 33, 0.4509803922);
+    background-color: #ba7eff;
     background-image: none;
   }
 }
@@ -959,7 +967,7 @@ body {
   .p-yoga {
     margin-top: 50pxpx;
     height: 250px;
-    background-color: rgba(6, 19, 33, 0.4509803922);
+    background-color: #bbbeef;
     background-image: none;
   }
 }
@@ -972,7 +980,7 @@ body {
   .p-kundalini {
     margin-top: 50pxpx;
     height: 250px;
-    background-color: rgba(6, 19, 33, 0.4509803922);
+    background-color: #3b8eed;
     background-image: none;
   }
 }
@@ -980,6 +988,14 @@ body {
 .p-yoga-en-silla {
   background-image: url(../assets/images/portada-yoga-en-silla.png);
   background-size: cover;
+}
+@media (max-width: 768px) {
+  .p-yoga-en-silla {
+    margin-top: 50pxpx;
+    height: 250px;
+    background-color: #7178df;
+    background-image: none;
+  }
 }
 
 .container {
