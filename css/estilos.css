@@ -1291,6 +1291,7 @@ body {
 
 .pie {
   animation: fadeInUp 0.8s ease-out;
+  margin-bottom: 60px;
 }
 
 @keyframes fadeInUp {
