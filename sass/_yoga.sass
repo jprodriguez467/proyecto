@@ -10,7 +10,7 @@
 
 .square
 
-  margin-top: 800px
+  margin-top: 200px
   margin-left: 10px
   background-color: rgb(248, 247, 246)
   display: grid
@@ -25,11 +25,14 @@
     margin-top: 600px
     margin-bottom: 250px
     margin-left: 0px
-    background-color: rgb(39, 249, 28)
+    background-color: #7f00b2
     display: grid
     grid-template-columns: 5px 70px 70px 70px 70px 70px 5px
     grid-template-rows: 600px 100px 100px 100px 100px 100px 100px
 .square-titulo
+  font-size: 25px
+  text-align: center
+  margin-top: 20px
   @media (max-width: 768px)
     font-family: 15px
     color: #fff
@@ -46,7 +49,7 @@
   color: rgb(20, 11, 1)
   @media (max-width: 768px)
     margin-top: 10px
-    background-color: #ed1717
+    background-color: #6cbdfc
     grid-column: 1/8
     grid-row: 1/2
 .caja1
@@ -60,7 +63,7 @@
     ),    url("../assets/images/Reducción-estrés-ansiedad.png") 
   @media (max-width: 768px)
 
-    background-color: #0b23de
+    background-color: #6c90fc
     background-image: none
     grid-column: 2/7
     grid-row: 2/3
@@ -76,7 +79,7 @@
       rgba(0, 1, 0, 0.6)
     ),    url("../assets/images/flexibilidad-fuerza.png")
   @media (max-width: 768px)
-    background-color: #e8e51a
+    background-color: #2456ee
     grid-column: 2/7
     grid-row: 3/4
     background-image: none
@@ -90,17 +93,17 @@
       rgba(0, 1, 0, 0.6),
       rgba(0, 1, 0, 0.6)),    url("../assets/images/equilibrioy-coordinacion.png");
   @media (max-width: 768px)
-    background-color: #ede4e4
+    background-color: #4a4eff
     background-image: none
     grid-column: 2/7
     grid-row: 4/5
 .caja4
-  background-color: #411cd3
+  background-color: #1b20f9
   display: flex
   justify-content: center
   display: grid
   grid-column: 2/3
-  grid-row: 5/6
+  grid-row: 6/7
   background-image: linear-gradient(0deg,
       rgba(0, 1, 0, 0.6),
       rgba(0, 1, 0, 0.6)
@@ -120,6 +123,7 @@
       rgba(0, 1, 0, 0.6)
     ),    url("../assets/images/sistema-inmunológico.png");
   @media (max-width: 768px)
+    background-color: #78b8f7
     grid-column: 2/7
     grid-row: 6/7
     background-image: none
@@ -134,11 +138,27 @@
       rgba(0, 1, 0, 0.6)
     ),    url("../assets/images/paz-interior.png") 
   @media (max-width: 768px)
+    font-size: 15px
+    text-align: center
     background-image: none
     grid-column: 2/7
     grid-row: 7/8
-    backgruond-color: #e65c5c
+    backgruond-color: #5cabf9
     z-index: 999
-.video-container
+.y-video
+  padding: 20px
+  width: 600px
+  display: block
+  margin: 0 auto
+  max-width: 100%
+  height: auto
+
   @media (max-width: 768px)
     display: none
+.pa
+  color: #0a0101
+  text-align: center
+  margin-top: 60px
+  font-size: 20px
+  @media (max-width: 768px)
+    color: #fff
