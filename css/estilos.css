@@ -745,6 +745,31 @@ body {
   }
 }
 
+.carousel-item {
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 700px;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .carousel-item {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+    height: auto;
+  }
+}
+
 .titulo {
   color: #fff;
 }
