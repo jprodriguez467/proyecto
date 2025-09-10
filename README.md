@@ -1,3 +1,6 @@
+<img width="500" height="500" alt="img-presentacion-vivi" src="https://github.com/user-attachments/assets/d73d1c9f-013f-4bcc-8518-a1dd8dfbe891" />
+
+
 🕉️ Sat Nam Yoga Estudio - Viviana Caminiti
 "Donde cada respiración es un paso hacia tu verdadero ser"
 
