@@ -57,38 +57,45 @@
             background: rgba(255, 255, 255, 0.2)
             box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3)
 
-        &::before
-            left: 100%
+            &::before
+                left: 100%
 
-        i
-            transform: rotate(360deg)
-            color: $color-accent
-            filter: drop-shadow(0 0 8px rgba(255, 154, 158, 0.6))
+            i
+                transform: rotate(360deg)
+                color: $color-accent
+                filter: drop-shadow(0 0 8px rgba(255, 154, 158, 0.6))
 
         // Colores específicos para cada red social en hover
         &[aria-label="WhatsApp"]:hover
             background: rgba(37, 211, 102, 0.2)
 
-        i
-            color: #25d366
-            filter: drop-shadow(0 0 8px rgba(37, 211, 102, 0.6))
+            i
+                color: #25d366
+                filter: drop-shadow(0 0 8px rgba(37, 211, 102, 0.6))
 
         &[aria-label="Facebook"]:hover
             background: rgba(24, 119, 242, 0.2)
 
-        i
-            color: #1877f2
-            filter: drop-shadow(0 0 8px rgba(24, 119, 242, 0.6))
+            i
+                color: #1877f2
+                filter: drop-shadow(0 0 8px rgba(24, 119, 242, 0.6))
 
         &[aria-label="Instagram"]:hover
             background: linear-gradient(45deg, rgba(225, 48, 108, 0.2), rgba(255, 214, 0, 0.2))
 
-        i
-            background: linear-gradient(45deg, #e1306c, #fd1d1d, #f77737, #fcaf45, #ffdc80)
-            -webkit-background-clip: text
-            -webkit-text-fill-color: transparent
-            background-clip: text
-            filter: drop-shadow(0 0 8px rgba(225, 48, 108, 0.6))
+            i
+                background: linear-gradient(45deg, #e1306c, #fd1d1d, #f77737, #fcaf45, #ffdc80)
+                -webkit-background-clip: text
+                -webkit-text-fill-color: transparent
+                background-clip: text
+                filter: drop-shadow(0 0 8px rgba(225, 48, 108, 0.6))
+
+        &[aria-label="YouTube"]:hover
+            background: rgba(255, 0, 0, 0.2)
+
+            i
+                color: #ff0000
+                filter: drop-shadow(0 0 8px rgba(255, 0, 0, 0.6))
 
         &:active
             transform: translateY(-4px) scale(1.05)
