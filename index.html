@@ -233,18 +233,31 @@ Como suscriptor de CYO, se te cobrará una vez al mes en la fecha en que te susc
 
 <div class="box-a-3">
       <div class="contacto-contenedor">
-        <fieldset class="info">
-          <legend><h3>Información de contacto</h3></legend>
-
-          <label for="name">Nombre:</label>
-          <input type="text" id="name" name="name" placeholder="Viviana" required/>
-
-          <label for="email">Mail:</label>
-          <input type="email" id="email" name="email" placeholder="@gmail.com"required/>
-
-          <button type="submit">Enviar</button>
-        </fieldset>
-
+     <fieldset class="info">
+        <h1>INFORMACIÓN DE CONTACTO</h1>
+        <form action="https://formsubmit.co/vivianacaminiti11@gmail.com" method="POST">
+            <!-- Campos ocultos para configurar FormSubmit -->
+            <input type="hidden" name="_subject" value="Nueva consulta desde el formulario web">
+            <input type="hidden" name="_next" value="https://tu-sitio.com/gracias.html">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" name="name" class="form-control" placeholder="Tu nombre completo" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" name="email" class="form-control" placeholder="tu-email@ejemplo.com" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Escribí tu consulta aquí..." class="form-control" name="message" rows="6" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-lg btn-dark btn-block">Enviar Consulta</button>
+        </form>
+    </fieldset>
         <div class="mapa">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.3944678305115!2d-60.716458324435024!3d-31.623048206272188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9d115cf2591%3A0x864b455b37d72c9d!2sAv.%20L%C3%B3pez%20y%20Planes%204543%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1753234400086!5m2!1ses-419!2sar"
@@ -290,6 +303,8 @@ Como suscriptor de CYO, se te cobrará una vez al mes en la fecha en que te susc
      <script>
          AOS.init();
      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
     
     </body>
   </html>
