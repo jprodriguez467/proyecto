@@ -1318,6 +1318,23 @@ body {
     transform: translateY(0);
   }
 }
+.copyright {
+  font-family: "Dancing Script", cursive;
+  font-size: 18px;
+  text-align: center;
+  color: #edeff4;
+}
+.copyright::before {
+  content: "© ";
+  font-family: Arial, sans-serif;
+}
+
+.nombre {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  color: #f9f4f4;
+}
+
 h2, h3 {
   color: rgb(20, 11, 1);
   margin: 10px 0;
