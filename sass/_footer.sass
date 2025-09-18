@@ -1,5 +1,5 @@
-
 @use 'variables' as *
+
 .container
     max-width: 1200px
     margin: 0 auto
@@ -12,6 +12,12 @@
         font-weight: 600
         margin: 0 0 $padding-medium 0
         text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3)
+        text-align: center
+
+        // Responsive para móvil
+        @media (max-width: 768px)
+            font-size: calc(#{$font-large} * 0.8)
+            margin-bottom: calc(#{$padding-medium} * 0.8)
 
     .d-flex
         display: flex
@@ -19,6 +25,15 @@
         align-items: center
         gap: $padding-medium
         margin-top: $padding-medium
+        flex-wrap: wrap // Permite que los iconos se ajusten en múltiples líneas
+
+        // Responsive para móvil
+        @media (max-width: 768px)
+            gap: calc(#{$padding-medium} * 0.6)
+            margin-top: calc(#{$padding-medium} * 0.8)
+
+        @media (max-width: 480px)
+            gap: 15px
 
     a
         color: white
@@ -36,6 +51,15 @@
         position: relative
         overflow: hidden
 
+        // Responsive para móvil
+        @media (max-width: 768px)
+            width: 50px
+            height: 50px
+
+        @media (max-width: 480px)
+            width: 45px
+            height: 45px
+
         &::before
             content: ''
             position: absolute
@@ -52,6 +76,13 @@
             position: relative
             z-index: 1
 
+            // Responsive para móvil
+            @media (max-width: 768px)
+                font-size: 22px
+
+            @media (max-width: 480px)
+                font-size: 20px
+
         &:hover
             transform: translateY(-8px) scale(1.1)
             background: rgba(255, 255, 255, 0.2)
@@ -64,6 +95,14 @@
                 transform: rotate(360deg)
                 color: $color-accent
                 filter: drop-shadow(0 0 8px rgba(255, 154, 158, 0.6))
+
+        // Efectos táctiles para móvil
+        @media (max-width: 768px)
+            &:hover
+                transform: translateY(-4px) scale(1.05)
+
+            &:active
+                transform: translateY(-2px) scale(1.02)
 
         // Colores específicos para cada red social en hover
         &[aria-label="WhatsApp"]:hover
@@ -105,10 +144,33 @@
     animation: fadeInUp 0.8s ease-out
     margin-bottom: 60px
 
-@keyframes fadeInUp
-    from
-        opacity: 0
-        transform: translateY(30px)
-    to
-        opacity: 1
-        transform: translateY(0)
+    // Responsive para móvil
+    @media (max-width: 768px)
+        margin-bottom: 40px
+
+.copyright
+    font-family: 'Dancing Script', cursive
+    font-size: 18px
+    text-align: center
+    color: #edeff4
+    margin-top: $padding-medium
+
+    // Responsive para móvil
+    @media (max-width: 768px)
+        font-size: 16px
+        margin-top: calc(#{$padding-medium} * 0.8)
+        padding: 0 10px
+
+    &::before
+        content: "© "
+        font-family: Arial, sans-serif; /* Mantener el © normal */
+
+.jpr
+    font-family: 'Dancing Script', cursive
+    font-weight: 700
+    color: #f9f4f4
+
+    // Responsive para móvil
+    @media (max-width: 480px)
+        display: block
+        margin-top: 5px
