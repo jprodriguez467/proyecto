@@ -528,9 +528,10 @@ body {
 }
 
 .square-titulo {
+  color: #160303;
   font-size: 25px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 @media (max-width: 768px) {
   .square-titulo {
@@ -542,6 +543,7 @@ body {
 .fra {
   font-size: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 300px;
 }
 
 .caja0 {
@@ -1329,7 +1331,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.nombre {
+.jpr {
   font-family: "Dancing Script", cursive;
   font-weight: 700;
   color: #f9f4f4;
