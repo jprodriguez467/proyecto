@@ -515,7 +515,7 @@ body {
     justify-content: start;
     background-color: #d8470d;
     display: grid;
-    grid-template-columns: 2px 80px 80px 70px 70px 70px 2px;
+    grid-template-columns: 0px 80px 80px 70px 70px 70px 2px;
     grid-template-rows: 600px 100px 100px 100px 100px 100px 100px;
   }
 }
