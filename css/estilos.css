@@ -497,6 +497,7 @@ body {
 }
 
 .square {
+  height: 1100px;
   position: relative;
   margin-top: 100px;
   margin-left: 10px;
@@ -515,24 +516,30 @@ body {
     justify-content: start;
     background-color: #d8470d;
     display: grid;
-    grid-template-columns: 0px 80px 80px 70px 70px 70px 2px;
-    grid-template-rows: 600px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 0px 80px 80px 70px 70px 68px 2px;
+    grid-template-rows: 500px 100px 100px 100px 100px 100px 100px;
   }
 }
-.square .p.pa {
-  color: #0a0101;
+
+@media (max-width: 768px) {
+  .p {
+    margin-left: 0;
+  }
+}
+
+.pajaro {
+  color: #040c01;
   text-align: center;
-  margin-top: 60px;
-  font-size: 10px;
+  margin-left: 0;
+  margin-bottom: 500px;
 }
 @media (max-width: 768px) {
-  .square {
+  .pajaro {
     position: relative;
     text-align: center;
     width: 100%;
     color: #fff;
     margin-top: 0;
-    margin-bottom: 500px;
     margin-left: 0;
     font-size: 15px;
   }
@@ -542,7 +549,6 @@ body {
   color: #160303;
   font-size: 25px;
   text-align: center;
-  margin-top: 10px;
   margin-left: 200px;
 }
 @media (max-width: 768px) {
@@ -569,15 +575,19 @@ body {
 }
 
 .caja0 {
-  grid-column: 2/7;
+  grid-column: 1/8;
   grid-row: 2/7;
   font-size: 25px;
+  margin-left: 2px;
+  margin-right: 25px;
   color: rgb(20, 11, 1);
 }
 @media (max-width: 768px) {
   .caja0 {
     width: 100%;
-    height: 700px;
+    height: 500px;
+    margin-right: 10px;
+    font-size: 15px;
     background-color: #6cbdfc;
     grid-column: 1/8;
     grid-row: 1/2;
@@ -1530,6 +1540,15 @@ h2, h3 {
 
 p {
   margin-left: 25px;
+  line-height: 50px;
+  font-size: 25px;
+}
+@media (max-width: 768px) {
+  p {
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-right: 20px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
