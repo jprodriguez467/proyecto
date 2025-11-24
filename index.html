@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <!-- Meta tags básicos -->
     <meta charset="UTF-8">
@@ -23,23 +23,33 @@
     <!-- Canonical URL (evita contenido duplicado) -->
     <link rel="canonical" href="https://yogavivianacaminiti.vercel.app/">
     
-    <!-- Open Graph mejorados para redes sociales -->
+    <!-- FAVICONS CORREGIDOS - Para pestaña del navegador -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/logosatnam.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/logosatnam.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logosatnam.png">
+    <link rel="shortcut icon" href="./assets/images/logosatnam.png">
+    
+    <!-- Open Graph mejorados para redes sociales - RUTAS ABSOLUTAS -->
     <meta property="og:locale" content="es_AR">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Sat Nam Yoga Estudio | Clases de Yoga en Santa Fe">
-    <meta property="og:description" content="Descubre el equilibrio perfecto entre cuerpo, mente y espíritu. Clases de Yoga, Meditación y Retiros con Viviana Caminiti en Santa Fe.">
+    <meta property="og:title" content="Sat Nam Yoga Estudio | Clases de Yoga en Santa Fe con Viviana Caminiti">
+    <meta property="og:description" content="Descubre el equilibrio perfecto entre cuerpo, mente y espíritu. Clases de Yoga, Meditación y Retiros con Viviana Caminiti en Santa Fe, Argentina.">
     <meta property="og:url" content="https://yogavivianacaminiti.vercel.app/">
     <meta property="og:site_name" content="Sat Nam Yoga Estudio">
     <meta property="og:image" content="https://yogavivianacaminiti.vercel.app/assets/images/logosatnam.png">
+    <meta property="og:image:secure_url" content="https://yogavivianacaminiti.vercel.app/assets/images/logosatnam.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Logo Sat Nam Yoga Estudio - Clases de Yoga en Santa Fe">
+    <meta property="og:image:type" content="image/png">
     
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@satnamyoga">
     <meta name="twitter:title" content="Sat Nam Yoga Estudio | Yoga en Santa Fe">
-    <meta name="twitter:description" content="Clases de Yoga, Meditación y Retiros Espirituales con Viviana Caminiti">
+    <meta name="twitter:description" content="Clases de Yoga, Meditación y Retiros Espirituales con Viviana Caminiti en Santa Fe, Argentina">
     <meta name="twitter:image" content="https://yogavivianacaminiti.vercel.app/assets/images/logosatnam.png">
+    <meta name="twitter:image:alt" content="Logo Sat Nam Yoga Estudio">
     
     <!-- Geo Tags para SEO local -->
     <meta name="geo.region" content="AR-S">
@@ -104,11 +114,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
     
-    <!-- Favicon (agrega estos archivos) -->
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    
     <!-- CSS y Fuentes -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
@@ -123,9 +128,10 @@
           <a class="navbar-brand" href="#">
             <img
               class="logo"
-              src="../assets/images/logosatnam.png"
-              width="40px"
-              height="40px"
+              src="./assets/images/logosatnam.png"
+              alt="Logo Sat Nam Yoga Estudio"
+              width="40"
+              height="40"
             />
           </a>
           <button
@@ -145,12 +151,12 @@
                 <a
                   class="nav-link active"
                   aria-current="page"
-                  href="../index.html"
+                  href="./index.html"
                   >Sat Nam Yoga Estudio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../pages/cursos.html">Cursos.</a>
+                <a class="nav-link" href="./pages/cursos.html">Cursos.</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./pages/retiros.html">Retiros.</a>
@@ -191,10 +197,7 @@
 
       <main>
          <section class="portada p-inicio">
-               
-             
-                 <h1 class="nombre">Sat Nam Yoga Estudio</h1>
-             
+             <h1 class="nombre">Sat Nam Yoga Estudio</h1>
          </section>    
     </main>
      <section class="presentacion">
@@ -210,10 +213,9 @@
                 El Bhagavad Gita, la autoridad más importante sobre la filosofía del yoga, explica que: "cuando la agitación de la mente, el intelecto y el yo se aquieta mediante la práctica del yoga, (…) el yogui/ni encuentra su realización."
             </p>
         </div>
-    </section>
-   
+    
     <div class="p-2">
-      <img src="./assets/images/img-presentacion-vivi.png" alt="" style="border: solid coral;" width="250px" height="250px" alt="Viviana Caminiti">
+      <img src="./assets/images/img-presentacion-vivi.png" alt="Viviana Caminiti - Profesora de Yoga" style="border: solid coral;" width="250" height="250">
     </div>
     </section>
     <!--grid-->
@@ -268,7 +270,7 @@
     <p class="parra">Consulta las preguntas frecuentes y resuelve tus dudas.</p>
   </div>
   <div data-aos="flip-right">
-  <img src="./assets/images/paz-interior.png" alt="Paz interior" width="250px" height="250px" alt="Mejora el bienestar emocional y físico,">
+  <img src="./assets/images/paz-interior.png" alt="Paz interior - Mejora el bienestar emocional y físico" width="250" height="250">
   </div>
 </section>
     <!--boostrap cordion-->
@@ -296,7 +298,7 @@
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         <strong>Sí, el acceso como usuario REGISTRADO es completamente gratuito.</strong> Sí, el acceso como usuario REGISTRADO es completamente gratuito.
-Para registrarte pulsa el enlace “Acceder” que verás en la parte superior derecha de la página.
+Para registrarte pulsa el enlace "Acceder" que verás en la parte superior derecha de la página.
 Para acceder al periodo de prueba gratuito debes suscribirte y elegir un plan. No se te cobrará nada durante tus primeros 7 días.
 Y si te gusta la prueba de CYO, no hagas nada: tu suscripción continuará automáticamente mientras decidas mantenerla.
 La suscripción a CYO tiene carácter mensual o anual, y comienza en la fecha en que realizas el proceso de suscripción. Sin contrato, sin cargos por cancelación, sin compromisos. Cancela en línea cuando quieras, 24 horas al día.
@@ -362,7 +364,7 @@ Como suscriptor de CYO, se te cobrará una vez al mes en la fecha en que te susc
         <form action="https://formsubmit.co/vivianacaminiti11@gmail.com" method="POST">
             <!-- Campos ocultos para configurar FormSubmit -->
             <input type="hidden" name="_subject" value="Nueva consulta desde el formulario web">
-            <input type="hidden" name="_next" value="https://tu-sitio.com/gracias.html">
+            <input type="hidden" name="_next" value="https://yogavivianacaminiti.vercel.app/gracias.html">
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_template" value="table">
             
@@ -426,8 +428,8 @@ Como suscriptor de CYO, se te cobrará una vez al mes en la fecha en que te susc
   </div>
 </footer>
  
-     <script  type = "module"  src = " https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js " > </script> 
-     <script  nomodule  src = " https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js " > </script>
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
      <script>
